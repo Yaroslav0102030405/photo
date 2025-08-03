@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff;
+  width: 500px;
+  color: #1a1a1a;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+  border: 1px solid #e5e7eb;
+}
+
+.file-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-label {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  background-color: #80808012;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-element {
+  position: absolute;
+  inset: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.file-placeholder {
+  font-size: 20px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.file-info {
+  display: inline-block;
+  margin-top: 6px;
+  width: 100%;
+  padding: 6px 70px;
+  background-color: #8888883b;
+  background-image: url("../src/components/inputFile/doc-2.png");
+  background-repeat: no-repeat;
+  background-size: 35px auto;
+  background-position: 6px 50%;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background-color: #1cda93b8;
+}
