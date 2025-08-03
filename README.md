@@ -15,3 +15,7 @@
 ## Стек технологій:
 
 React + TypeScript + Node
+
+### Запустити проект
+frontend - npm run dev
+server - node server/index.js
