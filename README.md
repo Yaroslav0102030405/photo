@@ -18,4 +18,4 @@ React + TypeScript + Node
 
 ### Запустити проект
 - npm run dev (frontend)
-- node server/index.js (server)
+- node server/index.js (backend)
